@@ -14,6 +14,11 @@
 		0673F1081C3D6787000E5B87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0673F1061C3D6787000E5B87 /* LaunchScreen.storyboard */; };
 		0673F1131C3D6787000E5B87 /* AboutMeV2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0673F1121C3D6787000E5B87 /* AboutMeV2Tests.swift */; };
 		0673F11E1C3D6787000E5B87 /* AboutMeV2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0673F11D1C3D6787000E5B87 /* AboutMeV2UITests.swift */; };
+		0673F12C1C3D6878000E5B87 /* SoccerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0673F12B1C3D6878000E5B87 /* SoccerViewController.swift */; };
+		0673F12E1C3D6892000E5B87 /* BooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0673F12D1C3D6892000E5B87 /* BooksViewController.swift */; };
+		0673F1301C3D68A6000E5B87 /* VideoGamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0673F12F1C3D68A6000E5B87 /* VideoGamesViewController.swift */; };
+		0673F1321C3D68BB000E5B87 /* WoodshopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0673F1311C3D68BB000E5B87 /* WoodshopViewController.swift */; };
+		0673F1341C3D68CF000E5B87 /* SchoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0673F1331C3D68CF000E5B87 /* SchoolViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		0673F1191C3D6787000E5B87 /* AboutMeV2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AboutMeV2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0673F11D1C3D6787000E5B87 /* AboutMeV2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeV2UITests.swift; sourceTree = "<group>"; };
 		0673F11F1C3D6787000E5B87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0673F12B1C3D6878000E5B87 /* SoccerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoccerViewController.swift; sourceTree = "<group>"; };
+		0673F12D1C3D6892000E5B87 /* BooksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooksViewController.swift; sourceTree = "<group>"; };
+		0673F12F1C3D68A6000E5B87 /* VideoGamesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoGamesViewController.swift; sourceTree = "<group>"; };
+		0673F1311C3D68BB000E5B87 /* WoodshopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WoodshopViewController.swift; sourceTree = "<group>"; };
+		0673F1331C3D68CF000E5B87 /* SchoolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,11 @@
 			children = (
 				0673F0FD1C3D6787000E5B87 /* AppDelegate.swift */,
 				0673F0FF1C3D6787000E5B87 /* ViewController.swift */,
+				0673F12B1C3D6878000E5B87 /* SoccerViewController.swift */,
+				0673F12D1C3D6892000E5B87 /* BooksViewController.swift */,
+				0673F12F1C3D68A6000E5B87 /* VideoGamesViewController.swift */,
+				0673F1311C3D68BB000E5B87 /* WoodshopViewController.swift */,
+				0673F1331C3D68CF000E5B87 /* SchoolViewController.swift */,
 				0673F1011C3D6787000E5B87 /* Main.storyboard */,
 				0673F1041C3D6787000E5B87 /* Assets.xcassets */,
 				0673F1061C3D6787000E5B87 /* LaunchScreen.storyboard */,
@@ -257,7 +272,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0673F1001C3D6787000E5B87 /* ViewController.swift in Sources */,
+				0673F12C1C3D6878000E5B87 /* SoccerViewController.swift in Sources */,
+				0673F1341C3D68CF000E5B87 /* SchoolViewController.swift in Sources */,
+				0673F12E1C3D6892000E5B87 /* BooksViewController.swift in Sources */,
 				0673F0FE1C3D6787000E5B87 /* AppDelegate.swift in Sources */,
+				0673F1301C3D68A6000E5B87 /* VideoGamesViewController.swift in Sources */,
+				0673F1321C3D68BB000E5B87 /* WoodshopViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
