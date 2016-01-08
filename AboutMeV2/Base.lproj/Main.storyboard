@@ -14,67 +14,75 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TWs-WW-ymL">
-                                <rect key="frame" x="277" y="472" width="46" height="30"/>
-                                <color key="backgroundColor" red="1" green="0.90527097192445394" blue="0.39962184631861286" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="184" y="451" width="46" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.97871661909999996" blue="0.99944264370000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.075179990729999993" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="changeToVideoGames:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yUV-Yh-xyj"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Hl-ee-WT3">
-                                <rect key="frame" x="144" y="28" width="312" height="104"/>
-                                <color key="backgroundColor" red="1" green="0.97871661909999996" blue="0.99944264370000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="51" y="28" width="312" height="104"/>
                                 <string key="text">1.	Soccer:  I have played soccer from a young age and it is my favorite sport.  I have played for both competitive and high school teams.  I play a primarily defensive position.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="soccer" translatesAutoresizingMaskIntoConstraints="NO" id="CSk-Mf-2bG">
+                                <rect key="frame" x="37" y="162" width="340" height="247"/>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.43684804459999999" blue="0.285338604" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.64489663786189277" green="1" blue="0.68185651188678897" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
                         <segue destination="Bsi-ii-Bkq" kind="presentation" identifier="toVideoGames" id="GgR-af-TQH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-31" y="-204"/>
+            <point key="canvasLocation" x="-31" y="-188"/>
         </scene>
         <!--Video Games-->
         <scene sceneID="FaP-P8-ya8">
             <objects>
-                <viewController title="Video Games" id="Bsi-ii-Bkq" customClass="VideoGamesViewController" sceneMemberID="viewController">
+                <viewController title="Video Games" id="Bsi-ii-Bkq" customClass="VideoGamesViewController" customModule="AboutMeV2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="VXI-1S-sRR"/>
                         <viewControllerLayoutGuide type="bottom" id="u1q-nP-0W0"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="wca-AS-nic">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H4B-sc-yPQ">
-                                <rect key="frame" x="277" y="472" width="46" height="30"/>
-                                <color key="backgroundColor" red="1" green="0.19469152472440909" blue="0.38053106358333277" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="184" y="542" width="46" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.97871661909999996" blue="0.99944264370000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.075179990729999993" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="changeToWoodshop:" destination="Bsi-ii-Bkq" eventType="touchUpInside" id="ZSU-W9-cT7"/>
+                                    <action selector="changeToWoodshop:" destination="Bsi-ii-Bkq" eventType="touchUpInside" id="9uY-0O-aco"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="borderlands" translatesAutoresizingMaskIntoConstraints="NO" id="Z3H-me-P8d">
+                                <rect key="frame" x="31" y="50" width="353" height="242"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="itD-a2-NO1">
-                                <rect key="frame" x="143" y="28" width="314" height="105"/>
-                                <color key="backgroundColor" red="1" green="0.97871661909999996" blue="0.99944264370000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="50" y="348" width="314" height="105"/>
                                 <string key="text">2.	Video Games:  I enjoy a wide variety of video games, but my favorite genre is FPS.  Borderlands is one of the best FPS RPGs in my opinion.  I also like online multiplayer FPS games such as CoD.  </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.99001847073861748" blue="0.22724377334354207" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.60722334927894583" green="1" blue="0.64014697037978519" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
                         <segue destination="D3U-0G-7ib" kind="presentation" identifier="toWoodshop" id="VwM-eR-eEL"/>
                     </connections>
@@ -92,28 +100,32 @@
                         <viewControllerLayoutGuide type="bottom" id="Q2P-9k-jH0"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="I9t-zj-0lt">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kkd-qT-ufP">
-                                <rect key="frame" x="277" y="475" width="46" height="30"/>
-                                <color key="backgroundColor" red="1" green="0.0" blue="0.95710178291075909" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="changeToBooks:" destination="D3U-0G-7ib" eventType="touchUpInside" id="VfJ-js-Lu4"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e5R-XF-qhc">
-                                <rect key="frame" x="160" y="28" width="280" height="125"/>
-                                <color key="backgroundColor" red="1" green="0.97871661909999996" blue="0.99944264370000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="67" y="222" width="280" height="125"/>
                                 <string key="text">3.	Woodshop:  I took a woodshop class two years and it was one of my favorite experiences in high school.  I had a great time building several different pieces of furniture and other things such as a longboard.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="woodshop" translatesAutoresizingMaskIntoConstraints="NO" id="nVo-iB-7c7">
+                                <rect key="frame" x="34" y="397" width="353" height="228"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kkd-qT-ufP">
+                                <rect key="frame" x="184" y="107" width="46" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.97871661909999996" blue="0.99944264370000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.075179990729999993" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="changeToSchool:" destination="D3U-0G-7ib" eventType="touchUpInside" id="LCr-N8-q5g"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.44884289516140985" blue="0.19458900551579705" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.67133626280114256" green="1" blue="0.73847576022172046" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
                         <segue destination="4ux-n7-YXd" kind="presentation" identifier="toSchool" id="IYh-xn-ZNr"/>
                     </connections>
@@ -125,34 +137,38 @@
         <!--Books-->
         <scene sceneID="K6Z-qw-W80">
             <objects>
-                <viewController title="Books" id="Xx9-WZ-bFl" customClass="BooksViewController" sceneMemberID="viewController">
+                <viewController title="Books" id="Xx9-WZ-bFl" customClass="BooksViewController" customModule="AboutMeV2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="GAb-QL-S3O"/>
                         <viewControllerLayoutGuide type="bottom" id="akQ-2y-CqT"/>
                     </layoutGuides>
                     <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="9x7-Z6-S3d">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DWj-jQ-BvS">
-                                <rect key="frame" x="277" y="463" width="46" height="30"/>
-                                <color key="backgroundColor" red="0.36187851941927873" green="1" blue="0.9369059434592939" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="changeToSoccer:" destination="Xx9-WZ-bFl" eventType="touchUpInside" id="XDF-Fg-lgj"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h0U-e7-yKh">
-                                <rect key="frame" x="135" y="28" width="331" height="127"/>
-                                <color key="backgroundColor" red="1" green="0.97871661909999996" blue="0.99944264370000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="42" y="76" width="331" height="127"/>
                                 <string key="text">1.	Books:  Reading is one of my favorite pastimes.  I am a big fan of fantasy book series, but I also read some science fiction and non-fiction books as well.  My favorite book series currently is the Mistborn Trilogy by Brandon Sanderson.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="books" translatesAutoresizingMaskIntoConstraints="NO" id="ajq-Eo-GUs">
+                                <rect key="frame" x="87" y="265" width="240" height="128"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DWj-jQ-BvS">
+                                <rect key="frame" x="184" y="487" width="46" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.97871661909999996" blue="0.99944264370000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.075179990729999993" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="changeToSoccer:" destination="Xx9-WZ-bFl" eventType="touchUpInside" id="XDF-Fg-lgj"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.075179990729999993" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.72643245705565029" green="1" blue="0.72217307679376108" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="presentation" identifier="toSoccer" id="XYu-c6-Zc0"/>
                     </connections>
@@ -164,34 +180,47 @@
         <!--School-->
         <scene sceneID="8x0-XY-3g8">
             <objects>
-                <viewController title="School" id="4ux-n7-YXd" customClass="SchoolViewController" sceneMemberID="viewController">
+                <viewController title="School" id="4ux-n7-YXd" customClass="SchoolViewController" customModule="AboutMeV2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7wk-xg-x4m"/>
                         <viewControllerLayoutGuide type="bottom" id="rVl-D7-JYv"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="otg-9i-Fv4">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D2h-ka-Tcq">
-                                <rect key="frame" x="277" y="480" width="46" height="30"/>
-                                <color key="backgroundColor" red="0.53353810865007301" green="1" blue="0.11129383375457291" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="184" y="600" width="46" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.97871661909999996" blue="0.99944264370000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.075179990729999993" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="184" y="242" width="46" height="30"/>
+                                </variation>
                                 <connections>
                                     <action selector="changeToBooks:" destination="4ux-n7-YXd" eventType="touchUpInside" id="yTG-6w-Yn4"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lpi-b3-pXv">
-                                <rect key="frame" x="140" y="20" width="321" height="127"/>
-                                <color key="backgroundColor" red="1" green="0.97871661909999996" blue="0.99944264370000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lpi-b3-pXv">
+                                <rect key="frame" x="47" y="78" width="321" height="127"/>
                                 <string key="text">4.	School:  School has consumed a lot of my free time because I have taken many AP and Concurrent Enrollment classes.  I would like to say that they were fun, but honestly they sucked for the most part.  Getting college credit wasn’t bad though.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="47" y="82" width="321" height="127"/>
+                                </variation>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="school" translatesAutoresizingMaskIntoConstraints="NO" id="jz3-kR-GaM">
+                                <rect key="frame" x="45" y="318" width="324" height="198"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="45" y="319" width="324" height="198"/>
+                                </variation>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.89724867750000004" green="1" blue="0.92760273449999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.70519891449517302" green="1" blue="0.77070744660872359" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
                         <segue destination="Xx9-WZ-bFl" kind="presentation" identifier="toBooks" id="i31-eb-9vA"/>
                     </connections>
@@ -201,4 +230,11 @@
             <point key="canvasLocation" x="651" y="1737"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="books" width="583" height="385"/>
+        <image name="borderlands" width="300" height="168"/>
+        <image name="school" width="259" height="194"/>
+        <image name="soccer" width="640" height="412"/>
+        <image name="woodshop" width="280" height="180"/>
+    </resources>
 </document>
