@@ -17,15 +17,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TWs-WW-ymL">
-                                <rect key="frame" x="184" y="451" width="46" height="30"/>
-                                <color key="backgroundColor" red="1" green="0.97871661909999996" blue="0.99944264370000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="tintColor" red="0.075179990729999993" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="changeToVideoGames:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yUV-Yh-xyj"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Hl-ee-WT3">
                                 <rect key="frame" x="51" y="28" width="312" height="104"/>
                                 <string key="text">1.	Soccer:  I have played soccer from a young age and it is my favorite sport.  I have played for both competitive and high school teams.  I play a primarily defensive position.</string>
@@ -36,6 +27,18 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="soccer" translatesAutoresizingMaskIntoConstraints="NO" id="CSk-Mf-2bG">
                                 <rect key="frame" x="37" y="162" width="340" height="247"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TWs-WW-ymL">
+                                <rect key="frame" x="184" y="451" width="46" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.97871661909999996" blue="0.99944264370000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.075179990729999993" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Change to the borderlands screen"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="60" y="449" width="234" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="changeToVideoGames:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yUV-Yh-xyj"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.64489663786189277" green="1" blue="0.68185651188678897" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -60,15 +63,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H4B-sc-yPQ">
-                                <rect key="frame" x="184" y="542" width="46" height="30"/>
-                                <color key="backgroundColor" red="1" green="0.97871661909999996" blue="0.99944264370000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="tintColor" red="0.075179990729999993" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="changeToWoodshop:" destination="Bsi-ii-Bkq" eventType="touchUpInside" id="9uY-0O-aco"/>
-                                </connections>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="borderlands" translatesAutoresizingMaskIntoConstraints="NO" id="Z3H-me-P8d">
                                 <rect key="frame" x="31" y="50" width="353" height="242"/>
                             </imageView>
@@ -79,6 +73,18 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H4B-sc-yPQ">
+                                <rect key="frame" x="184" y="542" width="46" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.97871661909999996" blue="0.99944264370000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.075179990729999993" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Change to the woodshop screen"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="57" y="485" width="223" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="changeToWoodshop:" destination="Bsi-ii-Bkq" eventType="touchUpInside" id="9uY-0O-aco"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.60722334927894583" green="1" blue="0.64014697037978519" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -89,7 +95,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3iD-hg-ZSE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="732" y="-204"/>
+            <point key="canvasLocation" x="732" y="-188"/>
         </scene>
         <!--Woodshop-->
         <scene sceneID="8yd-Ek-oUB">
@@ -117,7 +123,10 @@
                                 <rect key="frame" x="184" y="107" width="46" height="30"/>
                                 <color key="backgroundColor" red="1" green="0.97871661909999996" blue="0.99944264370000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.075179990729999993" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Change to the school screen"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="109" y="107" width="197" height="30"/>
+                                </variation>
                                 <connections>
                                     <action selector="changeToSchool:" destination="D3U-0G-7ib" eventType="touchUpInside" id="LCr-N8-q5g"/>
                                 </connections>
@@ -132,7 +141,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fup-0s-Rjq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="732" y="607"/>
+            <point key="canvasLocation" x="732" y="697"/>
         </scene>
         <!--Books-->
         <scene sceneID="K6Z-qw-W80">
@@ -148,7 +157,7 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h0U-e7-yKh">
                                 <rect key="frame" x="42" y="76" width="331" height="127"/>
-                                <string key="text">1.	Books:  Reading is one of my favorite pastimes.  I am a big fan of fantasy book series, but I also read some science fiction and non-fiction books as well.  My favorite book series currently is the Mistborn Trilogy by Brandon Sanderson.</string>
+                                <string key="text">5.	Books:  Reading is one of my favorite pastimes.  I am a big fan of fantasy book series, but I also read some science fiction and non-fiction books as well.  My favorite book series currently is the Mistborn Trilogy by Brandon Sanderson.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -160,7 +169,10 @@
                                 <rect key="frame" x="184" y="487" width="46" height="30"/>
                                 <color key="backgroundColor" red="1" green="0.97871661909999996" blue="0.99944264370000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.075179990729999993" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Change to the soccer screen"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="108" y="487" width="198" height="30"/>
+                                </variation>
                                 <connections>
                                     <action selector="changeToSoccer:" destination="Xx9-WZ-bFl" eventType="touchUpInside" id="XDF-Fg-lgj"/>
                                 </connections>
@@ -175,7 +187,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m2X-XR-gFc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-17" y="757"/>
+            <point key="canvasLocation" x="-93" y="970"/>
         </scene>
         <!--School-->
         <scene sceneID="8x0-XY-3g8">
@@ -193,9 +205,9 @@
                                 <rect key="frame" x="184" y="600" width="46" height="30"/>
                                 <color key="backgroundColor" red="1" green="0.97871661909999996" blue="0.99944264370000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.075179990729999993" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Change to the books screen"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="184" y="242" width="46" height="30"/>
+                                    <rect key="frame" x="111" y="242" width="193" height="30"/>
                                 </variation>
                                 <connections>
                                     <action selector="changeToBooks:" destination="4ux-n7-YXd" eventType="touchUpInside" id="yTG-6w-Yn4"/>
@@ -227,7 +239,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PC1-yX-Ydg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="651" y="1737"/>
+            <point key="canvasLocation" x="732" y="1603"/>
         </scene>
     </scenes>
     <resources>
